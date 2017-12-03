@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "497258992694",
+    "firebase_url": "https://plumber-hub.firebaseio.com",
+    "project_id": "plumber-hub",
+    "storage_bucket": "plumber-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497258992694:android:c20aac613a29d8f0",
+        "android_client_info": {
+          "package_name": "android.chatbot.com.chatbotapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497258992694-f2jnajqomec8k1i5l57e8bkdupg9dup8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.chatbot.com.chatbotapp",
+            "certificate_hash": "e5608d8982c34cc2c154fbb0fabe60cdc8508b99"
+          }
+        },
+        {
+          "client_id": "497258992694-6nkff8h7f4258u65vt3nert8r5omeu06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX07kIQEpXa2JUGnzeqy4bfqrEOLrSnNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497258992694-6nkff8h7f4258u65vt3nert8r5omeu06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

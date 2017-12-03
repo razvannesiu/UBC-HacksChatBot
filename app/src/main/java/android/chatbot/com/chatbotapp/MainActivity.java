@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btnWayfinding;
     Button btnChatbot;
+    Button btnQuest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,12 +19,21 @@ public class MainActivity extends AppCompatActivity {
 
         btnChatbot = (Button) findViewById(R.id.btnChatbot);
         btnWayfinding = (Button) findViewById(R.id.btnWayfinding);
+        btnQuest = (Button) findViewById(R.id.btnQuest);
+
+        btnQuest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Questionnaire.class);
+                startActivity(intent);
+            }
+        });
 
         btnChatbot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent intent = new Intent(MainActivity.this, Chatbot.class);
-//                startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, Chatbot.class);
+                startActivity(intent);
             }
         });
 

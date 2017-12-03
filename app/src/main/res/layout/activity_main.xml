@@ -7,17 +7,32 @@
     android:orientation="vertical"
     tools:context="android.chatbot.com.chatbotapp.MainActivity">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:scaleY="0.5"
+            android:scaleX="0.5"
+            app:srcCompat="@drawable/logo" />
+
         <Button
             android:id="@+id/btnChatbot"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:text="Chatbot" />
 
         <Button
+            android:id="@+id/btnQuest"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Questionnaire" />
+
+        <Button
             android:id="@+id/btnWayfinding"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:text="Wayfinding" />
 

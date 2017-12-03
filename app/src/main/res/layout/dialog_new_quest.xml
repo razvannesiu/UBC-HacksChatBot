@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.chatbot.com.chatbotapp.DialogNewQuest"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="New Submission"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtNewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter new name"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:id="@+id/radioMood"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioOptimistic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Optimistic" />
+
+            <RadioButton
+                android:id="@+id/radioPessimistic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pessimistic" />
+
+            <RadioButton
+                android:id="@+id/radioMoody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moody" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioColor"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black" />
+
+            <RadioButton
+                android:id="@+id/radioOrange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Orange" />
+
+            <RadioButton
+                android:id="@+id/radioBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blue" />
+
+            <RadioButton
+                android:id="@+id/radioGrey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grey" />
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+
+</LinearLayout>
